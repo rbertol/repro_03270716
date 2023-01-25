@@ -1,3 +1,2 @@
 collections:
   - name: device42.d42
-    source: https://dhcp-8-30-48.lab.eng.rdu2.redhat.com/api/galaxy/content/community/

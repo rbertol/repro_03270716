@@ -1,0 +1,10 @@
+---
+- name: Hello World!
+  hosts: localhost
+  tasks:
+
+  - name: "[VALDN] Check if RG with given name {{ rg_name }} exists"
+    azure.azcollection.azure_rm_resourcegroup_info:
+      name: "{{ rg_name }}"
+      subscription_id: "{{ rg_id }}"
+    register: rg_info
